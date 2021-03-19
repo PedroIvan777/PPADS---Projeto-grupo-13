@@ -30,48 +30,36 @@ Autor: Allef Wallace Rodrigues Caetano - 31958338 / Hiram Monari Bertoni - 31949
 
 # 1. Introdução
 
-Este é um documento de especificação de requisitos para um novo sistema web de vendas de produtos da Empresa Solar Systems. A Empresa Solar Systems vende equipamentos para a geração de energia elétrica de formas alternativas, tais como células fotovoltaicas e turbinas eólicas.
+Por via desse documento será apresentado os requisitos da empresa, tem como objetivo recomendar e conectar pessoas que tem gostos similares para livros, séries, para conectar pessoas e principalmente divulgar o meio de entretenimento. As pessoas poderão recomendar um desses meios de entretenimento, isso irá facilitar a popularização do mesmo.
 
-O sistema deverá permitir que clientes e funcionários da empresa naveguem pelo catálogo de produtos e efetuem pedidos de produtos de forma on-line.
+A plataforma conta com Grande diversidade, isso irá causar uma movimentação onde cada vez mais irá mostrar meios do interesse do usuário, e até mesmo por conta do vasto catálogo irá recomendar sempre coisas novas.
 
-Este documento descreve os requisitos não-funcionais, modela os requisitos funcionais com casos de uso e modela os conceitos do domínio do problema.
+Os usuários contaram com um suporte sempre que preciso para eventuais falhas isso trará um maio conforto a sua experiência e satisfação.
+
 
 
 # 2. Informações sobre a empresa
 
-A Empresa Solar Systems vende equipamentos para a geração de energia de formas alternativas e identificou tendências que causarão um aumento significativo na demanda por seus produtos.
+A empresa está com esse projeto inovador de conectar as pessoas através de seus gostos para literatura e a sétima arte, apresentando talvez até uma conexão maior.
 
-Devido à natureza técnica e inovadora de seus produtos, a empresa possui vendedores capazes de orientar os clientes no processo de escolher um sistema de energia alternativa. A empresa possui também funcionários que têm a função de gerente do produto. O gerente do produto é um especialista em um determinado produto ou em uma determinada linha de produtos. Ele produz os *whitepapers*, documentos altamente técnicos e focados nas especificações dos produtos.
+Compartilhar com outras pessoas seus gostos, irá e sempre trará recomendações novas, e cada vez mais que seus posts forem mais recomendados isso irá trazer cada vez mais novas recomendações para o usuário e ele sempre terá informações novas.
+
+A empresa tem como finalidade conectar as pessoas através de seus gostos e de divulgar entretenimento,  fazendo com que sua divulgação cresça cada vez mais.
 
 
 # 3. Escopo do projeto
 
-O escopo deste projeto é um sistema web que dá suporte à venda de produtos da empresa diretamente aos clientes, bem como à rede de vendedores. A publicidade de produtos, o controle de estoque e a cobrança não são parte deste projeto.
-
-A engine de pesquisa web será adquirida como um componente pronto para o novo sistema. Os detalhes internos desta engine não fazem parte deste projeto. Questões de segurança do site, além da proteção por senha no próprio site, também não são parte do projeto.
-
-> Observação do professor: neste exemplo, deixei como parte do projeto somente a proteção por senha, assumindo que as demais questões de segurança serão tratadas pela equipe de operações. No caso do projeto do seu grupo, será necessário tratar destes outros aspectos de segurança.
+Em seu escopo, o aplicativo é uma rede social, onde as pessoas são ligadas por suas recomendações e gostos, quem fará a parte de cadastro será o próprio usuário onde ele monta sua própria lista de indicação.
+O site contará com a proteção dos dados pessoais dos usuários, além de manter a integridade com ele, o usuário tem seus dados protegidos com senhas e também pela segurança da própria empresa.
 
 
 # 4. Interessados
 
-Aqueles que irão se beneficiar diretamente e aqueles que serão afetados pelo novo sistema:
+Os beneficiados serão todos os usuários e as produtoras de filmes, livros e séries:
 
-* Clientes: Conseguirão navegar pelo site para encontrar e fazer pedidos de produtos. Poderão escolher entre pedir diretamente da empresa ou através de um vendedor.
+Usuários: irão cada vez mais ter itens de entretenimento para adicionar na sua lista, e poderão se conectar com pessoas com os mesmos interesses.
 
-* Vendedores: Conseguirão navegar pelo site e obter informações atualizadas, precisas e detalhadas dos produtos. Serão informados de clientes em potencial e conseguirão se comunicar com o gerente do produto.
-
-* Gerentes do produto: Conseguirão atualizar diretamente as informações de seus produtos.
-
-* Serviço de Atendimento ao Consumidor (SAC): O sistema reduzirá a carga de trabalho no SAC, pois os clientes conseguirão encontrar de forma mais fácil as informações que necessitam.
-
-* Departamento de Marketing:: Os dados de navegação no site poderiam ser enviados para o departamento de marketing. Entendendo como um cliente usa o site ao fazer um pedido, o departamento poderá propor e implementar melhorias para manter os clientes.
-
-* Departamento de Contabilidade: As informações dos pedidos serão enviadas diretamente para a contabilidade, permitindo uma cobrança mais ágil e eficiente.
-
-* Departamento de Logística: As informações dos pedidos serão enviadas diretamente para o departamento de logística, que dará baixa no estoque e providenciará o envio do produto.
-
-* Departamento de Tecnologia da Informação: Será responsável pela implementação da nova base de dados, hospedagem da aplicação web e manutenção do sistema.
+Produtoras(Filmes, livros e séries): terão seus produtos sendo divulgados, isso aumentará seu consumo e sempre terá novos clientes.
 
 
 # 5. Objetivos funcionais
